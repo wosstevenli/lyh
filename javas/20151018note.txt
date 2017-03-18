@@ -1,0 +1,207 @@
+﻿var a = 1;
+undefined
+var a; a=9;
+9
+var a=1=3;
+VM247:2 Uncaught ReferenceError: Invalid left-hand side in assignment(…)InjectedScript._evaluateOn @ VM172:875InjectedScript._evaluateAndWrap @ VM172:808InjectedScript.evaluate @ VM172:664
+var a=1+3;
+undefined
+a=2*8;
+16
+h;
+VM338:2 Uncaught ReferenceError: h is not defined(…)(anonymous function) @ VM338:2InjectedScript._evaluateOn @ VM172:875InjectedScript._evaluateAndWrap @ VM172:808InjectedScript.evaluate @ VM172:664
+var a,h;
+undefined
+var a,h; a="anglarbaby"; b="huangxiaoming";
+"huangxiaoming"
+var a,h; a="anglarbaby"; h="huangxiaoming";
+"huangxiaoming"
+ a="anglarbaby";
+"anglarbaby"
+a="anglarbaby"; h="黄晓明";
+"黄晓明"
+var a,h;a="anglarbaby"; h="黄晓明";
+"黄晓明"
+var a,h;a="anglarbaby"; 
+"anglarbaby"
+console.lo
+undefined
+console.log(a);
+VM547:2 anglarbaby
+undefined
+console.log(a); var kevin=12;
+VM596:2 anglarbaby
+undefined
+console.log(kevin); var kevin=12;
+VM597:2 12
+undefined
+var m=1; var n=2; if (m !==1) if(n==2) console.log('hello'); else console.log('world');
+undefined
+var m=1; var n=2; if (m !==1){ if(n==2){ console.log('hello');} else{ console.log('world');}}
+undefined
+var i=0; while (i<100){console.log('i当前为：' +i); i++;}
+VM824:2 i当前为：0
+VM824:2 i当前为：1
+VM824:2 i当前为：2
+VM824:2 i当前为：3
+VM824:2 i当前为：4
+VM824:2 i当前为：5
+VM824:2 i当前为：6
+VM824:2 i当前为：7
+VM824:2 i当前为：8
+VM824:2 i当前为：9
+VM824:2 i当前为：10
+VM824:2 i当前为：11
+VM824:2 i当前为：12
+VM824:2 i当前为：13
+VM824:2 i当前为：14
+VM824:2 i当前为：15
+VM824:2 i当前为：16
+VM824:2 i当前为：17
+VM824:2 i当前为：18
+VM824:2 i当前为：19
+VM824:2 i当前为：20
+VM824:2 i当前为：21
+VM824:2 i当前为：22
+VM824:2 i当前为：23
+VM824:2 i当前为：24
+VM824:2 i当前为：25
+VM824:2 i当前为：26
+VM824:2 i当前为：27
+VM824:2 i当前为：28
+VM824:2 i当前为：29
+VM824:2 i当前为：30
+VM824:2 i当前为：31
+VM824:2 i当前为：32
+VM824:2 i当前为：33
+VM824:2 i当前为：34
+VM824:2 i当前为：35
+VM824:2 i当前为：36
+VM824:2 i当前为：37
+VM824:2 i当前为：38
+VM824:2 i当前为：39
+VM824:2 i当前为：40
+VM824:2 i当前为：41
+VM824:2 i当前为：42
+VM824:2 i当前为：43
+VM824:2 i当前为：44
+VM824:2 i当前为：45
+VM824:2 i当前为：46
+VM824:2 i当前为：47
+VM824:2 i当前为：48
+VM824:2 i当前为：49
+VM824:2 i当前为：50
+VM824:2 i当前为：51
+VM824:2 i当前为：52
+VM824:2 i当前为：53
+VM824:2 i当前为：54
+VM824:2 i当前为：55
+VM824:2 i当前为：56
+VM824:2 i当前为：57
+VM824:2 i当前为：58
+VM824:2 i当前为：59
+VM824:2 i当前为：60
+VM824:2 i当前为：61
+VM824:2 i当前为：62
+VM824:2 i当前为：63
+VM824:2 i当前为：64
+VM824:2 i当前为：65
+VM824:2 i当前为：66
+VM824:2 i当前为：67
+VM824:2 i当前为：68
+VM824:2 i当前为：69
+VM824:2 i当前为：70
+VM824:2 i当前为：71
+VM824:2 i当前为：72
+VM824:2 i当前为：73
+VM824:2 i当前为：74
+VM824:2 i当前为：75
+VM824:2 i当前为：76
+VM824:2 i当前为：77
+VM824:2 i当前为：78
+VM824:2 i当前为：79
+VM824:2 i当前为：80
+VM824:2 i当前为：81
+VM824:2 i当前为：82
+VM824:2 i当前为：83
+VM824:2 i当前为：84
+VM824:2 i当前为：85
+VM824:2 i当前为：86
+VM824:2 i当前为：87
+VM824:2 i当前为：88
+VM824:2 i当前为：89
+VM824:2 i当前为：90
+VM824:2 i当前为：91
+VM824:2 i当前为：92
+VM824:2 i当前为：93
+VM824:2 i当前为：94
+VM824:2 i当前为：95
+VM824:2 i当前为：96
+VM824:2 i当前为：97
+VM824:2 i当前为：98
+VM824:2 i当前为：99
+99
+var i=0; while (i<100){console.log('i当前为：' +i); i++; if (i===10) break;}
+i当前为：0
+VM825:2 i当前为：1
+VM825:2 i当前为：2
+VM825:2 i当前为：3
+VM825:2 i当前为：4
+VM825:2 i当前为：5
+VM825:2 i当前为：6
+VM825:2 i当前为：7
+VM825:2 i当前为：8
+VM825:2 i当前为：9
+9
+var i=0; while (i<100){i++; if (i%2===0) continue; console.log('i当前为:' +i);}
+VM826:2 i当前为:1
+VM826:2 i当前为:3
+VM826:2 i当前为:5
+VM826:2 i当前为:7
+VM826:2 i当前为:9
+VM826:2 i当前为:11
+VM826:2 i当前为:13
+VM826:2 i当前为:15
+VM826:2 i当前为:17
+VM826:2 i当前为:19
+VM826:2 i当前为:21
+VM826:2 i当前为:23
+VM826:2 i当前为:25
+VM826:2 i当前为:27
+VM826:2 i当前为:29
+VM826:2 i当前为:31
+VM826:2 i当前为:33
+VM826:2 i当前为:35
+VM826:2 i当前为:37
+VM826:2 i当前为:39
+VM826:2 i当前为:41
+VM826:2 i当前为:43
+VM826:2 i当前为:45
+VM826:2 i当前为:47
+VM826:2 i当前为:49
+VM826:2 i当前为:51
+VM826:2 i当前为:53
+VM826:2 i当前为:55
+VM826:2 i当前为:57
+VM826:2 i当前为:59
+VM826:2 i当前为:61
+VM826:2 i当前为:63
+VM826:2 i当前为:65
+VM826:2 i当前为:67
+VM826:2 i当前为:69
+VM826:2 i当前为:71
+VM826:2 i当前为:73
+VM826:2 i当前为:75
+VM826:2 i当前为:77
+VM826:2 i当前为:79
+VM826:2 i当前为:81
+VM826:2 i当前为:83
+VM826:2 i当前为:85
+VM826:2 i当前为:87
+VM826:2 i当前为:89
+VM826:2 i当前为:91
+VM826:2 i当前为:93
+VM826:2 i当前为:95
+VM826:2 i当前为:97
+VM826:2 i当前为:99
+99
